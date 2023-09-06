@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#ff9100,#ff4c05);
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+#navbarNav a{
+    font-weight: 550;
+    color: white;
+    text-align: right;
+    
+}
+#navbarNav a:hover{
+    color: black;
+    transition: 0.6s ease;
+}
+.zoom:hover{
+    transform : scale(1.25);
+ -moz-transform : scale(1.25);
+ -webkit-transform : scale(1.25);
+ -o-transform : scale(1.25);
+ -ms-transform : scale(1.25);
+}
+.zoom {
+    transition:  .5s;
+    
+}
+/* .nav-link.active {
+    color: rgb(244, 5, 5);
+  } */
+
+/*--------------main section----------*/
+ .main{
+    background-image: linear-gradient(to right,#ff9e1f,#c27318);
+    
+} 
+.text-center{
+    padding-top: 20%;
+}
+.img-center{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.wave-image{
+    width: 100%;
+    
+}
+/*-------------About us----------------*/
+
+.about{
+    
+    padding-bottom: ;
+} 
+.btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#ff9e1f,#c27318) ;
+
+}
+/*-------------Servicse----------------*/
+/* .service{
+   padding-bottom: 35%;
+   margin-bottom:10%;
+
+   
+   
+} */
+.service-head{
+    
+}
+.contain{
+    padding: 5%;
+}
+
+
+
+.zoom1:hover{
+    transform : scale(1.03);
+ -moz-transform : scale(1.03);
+ -webkit-transform : scale(1.03);
+ -o-transform : scale(1.03);
+ -ms-transform : scale(1.03);
+}
+.zoom1 {
+    transition:  .5s;
+    
+}

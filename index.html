@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo-img-removebg-preview.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link active zoom " aria-current="page" href="#main">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom " href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom" href="#" onclick="openForm()">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </section>
+
+  <!-- --------------------Main Section------------------ -->
+
+  <!-- -------log in --------- -->
+
+
+  <!-- <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div> -->
+  <section class="main" name="main" id="main">
+    <div class="container main1">
+      <div class="row">
+        <div class="col-md-4 text-center ">
+          <h2>Hello ! Everyone</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsa in tenetur laboriosam ratione soluta,
+            cum veritatis sunt dolores.</p><button type="button" class="btn btn-outline-dark btn-lg">Let's
+            start</button>
+        </div>
+        <div class="col-md-8 img-center">
+          <img src="back.png" alt="" class="img-fluid zoom1">
+        </div>
+      </div>
+    </div>
+    <img src="wave1.png" class="wave-image" alt="">
+  </section>
+
+
+  <!-- --------------------About us----------------------------- -->
+  <section id="about" name="about" class="">
+    <div class="container about">
+      <div class="row">
+        <div class="text-center ">
+          <h2 class="about-head ">About Us</h2>
+          <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet eum
+            similique quibusdam minima alias? Minus voluptatibus provident eaque facere sed?</p>
+          <div class="button"><button type="button" class="btn btn-primary">Read More</button></div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------- Services----------- -->
+  <section id="service">
+    <div class="contain">
+      
+        <div class="service-head">
+          <h1 class="text-center">Service</h1>
+          <p class="col-md-9 offset-md-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam assumenda
+            excepturi veritatis, eaque
+            fugit deserunt odio vitae laudantium debitis nemo sunt commodi odit alias corporis tenetur rerum laboriosam?
+            Blanditiis molestiae dolorem corrupti enim iure,</p>
+        </div>
+
+        <!-- card 1 -->
+        <div class="my-card">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card zoom1">
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel id incidunt ea
+                    ratione
+                    porro ullam amet architecto sapiente. Consectetur itaque architecto dolore quisquam accusamus
+                    voluptatum!</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-sm-3">
+              <div class="card zoom1">
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, tempore
+                    molestias dolor quibusdam error consequuntur repudiandae facilis eos vel doloremque cumque adipisci
+                    dolorum repellat odit..</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-sm-3">
+              <div class="card zoom1">
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam magnam
+                    repudiandae
+                    dolorum cum iste aperiam a tenetur, natus quibusdam minus numquam deleniti! Nesciunt, cumque sed?.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="col-sm-3">
+              <div class="card zoom1">
+                <div class="card-body">
+                  <h4 class="card-title">Speci
+                    al title treatment</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, magni iusto
+                    nostrum
+                    dolor, sint illo accusamus doloremque non voluptate eum explicabo a provident consectetur labore!
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+    </div>
+    </div>
+  </section>
+  <!---------------------------End Services----------- -->
+  <!-- -----------------------Start of Gallery------------- -->
+  <section id="gallery" name="gallery" class="bg-danger">
+    <div class="container">
+      <div class="row">
+        fii
+      </div>
+    </div>
+
+  </section>
+  <!-- -----------------------End of Gallery------------- -->
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+
+  </script>
+</body>
+
+</html>
